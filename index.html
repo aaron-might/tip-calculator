@@ -21,13 +21,31 @@
         <div class="card">
             <div class="input">
                 <div class="bill-container">
-                    Bill
+                    <div class="label-wrapper">
+                        <label for="inp-bill">Bill</label>
+                    </div>
+                    <div class="inp-wrapper">
+                        <input class="inp-text" type="text" name="inp-bill" id="inp-bill" placeholder="0.0">
+                        <img src="./images/icon-dollar.svg" alt="icon-dollar">
+                    </div>
+
                 </div>
                 <div class="tip-container">
-                    Tip
+                    <div class="label-wrapper">
+                        <label for="inp-tip">Select Tip %</label>
+                    </div>
                 </div>
                 <div class="people-container">
-                    People
+                    <div class="label-wrapper">
+                        <label for="inp-people">Number of People</label>
+                        <div class="error-msg">Can't be zero</div>
+                    </div>
+
+                    <div class="inp-wrapper">
+                        <input class="inp-text" type="text" name="inp-people" id="inp-people" placeholder="1">
+                        <img src="./images/icon-person.svg" alt="icon-person">
+                    </div>
+
                 </div>
             </div>
             <div class="output">
