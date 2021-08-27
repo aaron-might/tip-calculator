@@ -141,6 +141,21 @@ img{
 .output {
     background-color: hsl(183, 100%, 15%);
     width: 100%;
-    border-radius:0.5rem;
-    /* color:hsl(183, 100%, 15%); */
+    border-radius:1.5rem;
+    padding:2,2rem;
+        /* color:hsl(183, 100%, 15%); */
+}
+.line-wrapper {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.4rem 0;
+}
+.title {
+    color:white;
+    font-weight:700;
+    font-size:1.6rem;
+}
+.desc{
+    color: var(--dark-grayish-cyan-2)
 }
